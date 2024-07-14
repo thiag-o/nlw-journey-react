@@ -18,7 +18,7 @@ export function CreateTripPage() {
   const [ownerEmail, setOwnerEmail] = useState('');
   const [eventStartAndEndDates, setEventStartAndEndDates] = useState<DateRange | undefined>();
 
-  const [emailsToInvite, setEmailsToInvite] = useState(['thiago@clubeagro.com.br']);
+  const [emailsToInvite, setEmailsToInvite] = useState(['teste@exemplo.com.br']);
   function openGuestsInput() {
     setIsGuestsInputOpen(true);
   }
